@@ -1,6 +1,6 @@
 # GO-endpoint
 
-This endpoint returns cool spots in the given radius of your choice (in meters) in London.  
+This endpoint returns cool spots in the given radius of your choice (in meters) based on the given coordinates.  
 It receives the coordinates (latitude and longitude), and a radius in meters and returns an array of objects containing all fields in the data set.
 
 ## How to Run
