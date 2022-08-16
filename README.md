@@ -1,15 +1,18 @@
 # GO-endpoint
 
-## Question 1
-1. Change the website field, so it only contains the domain
-2. Count how many spots contain the same domain
-3. Return spots which have a domain with a count greater than one
-#### The answer to question one can be found in `query.sql`
+This endpoint returns cool spots in the given radius of your choice (in meters) in London.  
+It receives the coordinates (latitude and longitude), and a radius in meters and returns an array of objects containing all fields in the data set.
 
-## Question 2
+## How to Run
+
 ### Prerequisites
 In order for this to run, you need to have a postgres with postgis extention running on localhost on port 5432,
 and that you have imported the data from `spots.sql` file.  
+
+### Clone the repo
+```
+git clone https://github.com/EviePalaiochorinou/GO-endpoint
+```
 
 ### To start the program run
 
